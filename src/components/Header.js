@@ -11,8 +11,7 @@ const Header = () => {
       <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
         <Link to="/">
           <div>
-            <h3>Ecom</h3>
-            {/* <img className="w-28" src={logoDark} alt="logoDark" /> */}
+            <img className="w-40" src={logoDark} alt="logoDark" />
           </div>
         </Link>
         <div className="flex items-center gap-8">
@@ -46,7 +45,7 @@ const Header = () => {
 
           <Link to="/login">
             <img
-              className="w-8 h-8 rounded-full"
+              className="w-9 h-9 rounded-full"
               src={
                 userInfo
                   ? userInfo.image
